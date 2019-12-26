@@ -1,0 +1,71 @@
+.text-box{
+    padding: 10px;
+}
+.text-box div{
+    clear: left;
+    overflow: hidden;
+    position: relative;
+}
+.text-box div input{
+    line-height: 21px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    -webkit-user-select: text;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    outline: 0;
+    background-color: #fff;
+    -webkit-appearance: none;
+    font-size: 17px;
+}
+.text-box div span{
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 0;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    color: #999;
+    font-family: Muiicons;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+.text-box div .input{
+    width: 60%;
+    float: left;
+}
+.text-box div a{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    height: 40px;
+    line-height: 1.5;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #007aff;
+    background-color: #007aff;
+}
+.text-box .a{
+    color: #fff;
+    border: 1px solid #007aff;
+    background-color: #007aff;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    position: relative;
+    padding: 6px 12px;
+    display: inline-block;
+}
