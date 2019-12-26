@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>后台管理系统-首页</title>
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/bootstrap-validator/css/bootstrapValidator.css" />
+		<link rel="stylesheet" href="assets/nprogress/nprogress.css" />
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<script type="text/javascript" src="assets/jquery/jquery.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+	<script src="assets/nprogress/nprogress.js"></script>
+	<script src="assets/echarts/echarts.min.js"></script>
+	<script src="js/index.js"></script>
+	<body>
+		<!--侧边栏-->
+		<div class="aside">
+			<!--商标-->
+			<div class="brand"><a href="index.html">电商后台系统</a></div>
+			<!--用户-->
+			<div class="user">
+				<img src="images/default.png" alt="" />
+				<span>超级管理员</span>
+			</div>
+			<!--菜单-->
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-user"></span>
+							用户管理
+						</a>
+					</li>
+					<li>
+						<a href="#" data-toggle="collapse" data-target="#demo">
+							<span class="glyphicon glyphicon-list"></span>
+							分类管理
+						</a>
+						<div id="demo" class="collapse">
+							<a href="#">一级分类</a>
+							<a href="#">二级分类</a>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-tags"></span>
+							商品管理
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--内容-->
+		<div class="section">
+			<!--顶部导航-->
+			<nav class="nav">
+				<a data-menu href="#" >
+					<span class="glyphicon glyphicon-align-justify">
+						
+					</span>
+				</a>
+				<a data-logout href="#" style="float: right;padding-right:15px;">
+					<span class="glyphicon glyphicon-log-out" >
+						
+					</span>
+				</a>
+			</nav>
+			<div class="container-fluid">
+				<ul class="breadcrumb">
+				    <li><a href="#">管理系统</a></li>
+            		<li class="active">首页</li>
+				</ul>
+				<div class="content">
+					<div class="picTable"></div>
+            		<div class="picTable"></div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

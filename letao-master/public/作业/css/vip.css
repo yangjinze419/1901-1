@@ -1,0 +1,101 @@
+.zong{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #efeff4;
+}
+.top{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #006699;
+    text-align: center;
+    color: #fff;
+}
+.top a{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    padding: 3px;
+}
+.text{
+    padding-top: 45px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.text ul{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    background-color: #fff;
+}
+.text ul li{
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    padding: 11px 15px;
+    -webkit-touch-callout: none;
+    padding-right: 65px;
+    border-bottom: 1px solid #ccc;
+}
+.text ul li a{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: -11px -15px;
+    padding: inherit;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+    margin-right: -65px;
+}
+.text ul li a img{
+    line-height: 42px;
+    max-width: 42px;
+    height: 42px;
+    float: left;
+    margin-right: 10px;
+}
+.text ul li a div{
+    overflow: hidden;
+}
+.text ul li a div p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 14px;
+    margin: 0;
+    color: #8f8f94;
+}
+.text div{
+    padding: 0 10px;
+}
+.text div a{
+    color: #333;
+    text-align: center;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 100%;
+    margin: 20px 0;
+}

@@ -1,0 +1,59 @@
+.zong{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.top{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #006699;
+    text-align: center;
+    color: #fff;
+}
+.top a{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    padding: 3px;
+}
+.text{
+    padding-top: 45px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.bottom{
+    height: 50px;
+    width: 100%;
+    background: #006699;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+.bottom a{
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+.bottom a span{
+    display: block;
+    font-size: 12px;
+    padding: 3px 0;
+}
