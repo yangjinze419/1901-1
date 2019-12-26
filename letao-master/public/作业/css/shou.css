@@ -1,0 +1,55 @@
+.top{
+    background: #006699;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.top span{
+    float: left;
+    color: white;
+}
+.top-one p{
+    display: block;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.top-one{
+    width: 100%;
+    padding: 0.5rem 3.5rem 0 3.5rem;
+}
+.text{
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+}
+.text-input{
+    width: 27rem;
+    height: 3rem;
+}
+.text-input input{
+    width: 27rem;
+    height: 3rem;
+}
+.text-input span{
+    position: relative;
+    top: -3.8rem;
+    left: 24.5rem;
+}
+.text .a{
+    display: block;
+    width: 27rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    background: blue;
+    margin-top: 1rem;
+    color: white;
+}
+.text-p a{
+    text-decoration: none;
+    color: blue;
+    position: relative;
+    top: 2rem;
+    left: 24rem;
+}

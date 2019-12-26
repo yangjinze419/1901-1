@@ -1,0 +1,66 @@
+.zong{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.top{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #006699;
+    text-align: center;
+    color: #fff;
+}
+.top .a{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    padding: 3px;
+}
+.text{
+    padding-top: 45px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.text input{
+    width: 95%;
+    margin: 3% 2.5%;
+}
+.text-input1 input{
+    width: 60%;
+    margin-left: 2.5%;
+}
+.text-input1 button{
+    height: 39px;
+    width: 31.5%;
+    margin-top: 1rem;
+    background: blue;
+    color: white;
+}
+.text .button{
+    width: 95%;
+    margin: 0 2.5%;
+    background: blue;
+    color: white;
+}
+.text-input2{
+    margin-top: 2rem;
+}
+.text-input2 input{
+    width: 10%;
+    margin-top: 3rem;
+    margin-left: 2.5%;
+}
+.text-input2 a{
+    margin-left: 8rem;
+}

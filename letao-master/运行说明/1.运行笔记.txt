@@ -1,0 +1,82 @@
+项目的环境搭建和启动
+
+
+   1.安装node.js 一路下一步
+ 
+   2.安装mysql 安装phpstudy即可 
+
+   3.导入数据 把letao-master里面的docs 里面的letao初始化.sql导入数据库 UTF-8编码问题
+
+  4.启动
+
+     4.1 开启数据库
+  4.2 开启nodejs黑窗  
+     4.3 
+进入letao-master根目录按住shift+右键 在此处打开命令窗口 powershell 窗口
+输入 
+     4.4 npm start 回车 没有报错就表示成功
+ 
+     4.5 黑窗和数据库都不要关闭 黑窗只有能一个
+如果开启多个回车 报错 Port 3000 is already in use 3000端口被占用
+全部关闭再开一个（把node.js进程关闭）
+
+--------------------------------------------------------------------------
+---------------------------------------------------------------------------
+一.项目运行说明:
+1.导入docs文件里数据sql，修改后台文件夹models，db.js 里连接后台信息
+2.运行: 2.1. 下载依赖包npm i ,2.2运行 npm start
+3.前端访问-http://localhost:3000/mobile/index.html
+后台访问-http://localhost:3000/admin/index.html   
+用户名:root,密码:123456
+4.购物车产品-可通过搜索1,展现加入购物车
+
+--------------------------------------------------------------------------
+---------------------------------------------------------------------------
+二.目录说明:
+1.public文件- 前端所有页面功能-主要写这个文件内容
+         mobile-前台页面
+         admin-后台页面
+2.models文件-后台逻辑接口所有功能(nodejs实现)-学到node时，可实现，现不用写
+3.routes文件-路由转发文件(nodejs实现)
+
+app.js 项目入口-可配置开发环境,生产环境,路由转发规则等
+bin文件-项目具体执行文件(不用动)
+package.json  项目依赖包名称
+package-lock.json  项目具体依赖源地址
+
+--------------------------------------------------------------------------
+---------------------------------------------------------------------------
+三.项目的依赖包
+
+MUI ： 在移动端写页面的UI框架
+
+zepto: 是一个移动端的JS库 操作DOM和发送ajax请求
+artTemplate ： 模板引擎的JS文件 用来渲染模板生成模板
+
+fontawesome ： 字体图标框架 实现页面的字体图标显示
+
+less ： 编译less
+
+bootstrap: 在PC端用来写页面UI框架
+
+jquery： 是一个PC端的JS库 操作DOM和发送ajax请求
+
+在移动端使用 MUI+zepto+fontawesome+arttemplate+less
+
+在PC端使用 bootstrap+jquery+arttemplate+fontawesome+less
+
+--------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+四.路由规划:
+1.拿分类页说明:
+
+     前端(mobile-cate.js):通过ajax-请求接口 /category/queryTopCategory。
+
+     路由(routes-category.js):通过router.get("/queryTopCategory", function (req, res) {   Category.queryTopCategory(function (err, data)  拦截前端请求,同时调用后台接口方法Category = require('../models/category.js')里的查询方法queryTopCategory,路由拿到后台数据发送给前端。
+
+     后台处理(models-category.js):后台通过连接数据库,查询sql得到数据返给路由
+      var selectSql = 'select * from category where isDelete=1';
+       db.query(selectSql, function (err, result) {}
+
+
+

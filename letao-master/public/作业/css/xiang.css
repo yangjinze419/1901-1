@@ -1,0 +1,174 @@
+.zong{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.top{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #006699;
+    text-align: center;
+    color: #fff;
+}
+.top .a{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    padding: 3px;
+}
+.text{
+    height: 100%;
+    width: 100%;
+}
+.text-txt{
+    position: relative;
+    height: 100%;
+    overflow: auto;
+}
+.text-top{
+    position: relative;
+    margin-top: 60px;
+    padding: 0 10px
+}
+.text-top form input{
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    padding-left: 10px;
+    text-align: left;
+    border: 1px solid #006699;
+    background: #fff;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.text-top form a{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 30px;
+    width: 60px;
+    background: #006699;
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    line-height: 30px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.text-text{
+    height: 30px;
+    line-height: 30px;
+    background: #efeff4;
+    box-shadow: 2px 0 2px #ccc;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.text-text a{
+    width: 25%;
+    font-size: 12px;
+    color: #333;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    background: 0 0;
+}
+.text-text a span{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.text-text-bottom{
+    min-height: 1000px;
+    overflow: inherit;
+}
+.text-text-bottom a{
+    float: left;
+    width: 50%;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;;
+    background: 0 0;
+}
+.box{
+    width: 100%;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+    padding: 10px 0;
+    float: left;
+}
+.box img{
+    border: 0;
+    width: 100%;
+}
+.box-p{
+    padding: 0 10px;
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.box p{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #8f8f94;
+}
+.box-span1{
+    font-size: 12px;
+    color: #f30;
+    margin-right: 10px;
+}
+.box-span2{
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+.box-button{
+    background: #006699;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    cursor: pointer;
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.opend{
+    position: relative;
+    top: -50px;
+    left: 140px;
+    color: black;
+    font-weight: 600;
+}
